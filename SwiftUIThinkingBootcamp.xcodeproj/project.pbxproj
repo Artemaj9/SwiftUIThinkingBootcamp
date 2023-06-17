@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC1139852A3DFEEF00FFF35D /* BackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139842A3DFEEE00FFF35D /* BackgroundAndOverlayBootcamp.swift */; };
+		AC1139872A3E078900FFF35D /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139862A3E078900FFF35D /* StacksBootcamp.swift */; };
 		AC41A9DB2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */; };
 		AC41A9DD2A3DDE88002DD15E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DC2A3DDE88002DD15E /* ContentView.swift */; };
 		AC41A9DF2A3DDE8A002DD15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC41A9DE2A3DDE8A002DD15E /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		AC1139842A3DFEEE00FFF35D /* BackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
+		AC1139862A3E078900FFF35D /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		AC41A9D72A3DDE88002DD15E /* SwiftUIThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		AC41A9DC2A3DDE88002DD15E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		AC41A9CE2A3DDE88002DD15E = {
 			isa = PBXGroup;
 			children = (
+				AC1139862A3E078900FFF35D /* StacksBootcamp.swift */,
 				AC41A9D92A3DDE88002DD15E /* SwiftUIThinkingBootcamp */,
 				AC41A9D82A3DDE88002DD15E /* Products */,
 			);
@@ -161,6 +164,7 @@
 				AC1139852A3DFEEF00FFF35D /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				AC41A9DD2A3DDE88002DD15E /* ContentView.swift in Sources */,
 				AC41A9EB2A3DE5E0002DD15E /* ColorsBootcamp.swift in Sources */,
+				AC1139872A3E078900FFF35D /* StacksBootcamp.swift in Sources */,
 				AC41A9EF2A3DF75E002DD15E /* ImageBootcamp.swift in Sources */,
 				AC41A9DB2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift in Sources */,
 			);
