@@ -13,10 +13,13 @@ struct AnimationBootcamp: View {
     var body: some View {
         VStack {
             Button("Button") {
-                withAnimation(Animation.default.delay(2.0)) {
+//                withAnimation(
+//                    Animation
+//                        .default
+//                        .repeatForever(autoreverses: true)
+//                ) {
                     isAnimated.toggle()
                 }
-            }
             Spacer()
             RoundedRectangle(cornerRadius: isAnimated ? 50.0 : 20)
                 .fill(isAnimated ? Color.red : Color.green)
@@ -24,7 +27,11 @@ struct AnimationBootcamp: View {
                     width:   isAnimated ? 100: 300,
                     height: isAnimated ? 100: 300)
                 .rotationEffect(Angle(degrees: isAnimated ? 60 : 0))
-                .offset(x: isAnimated ? 50: -50, y: isAnimated ?  300: 0) //Translation
+                .offset(x: isAnimated ? 50: -50, y: isAnimated ?  300: 0)
+                .animation(Animation
+                    .default
+                    .repeatCount(2))
+                //Translation
             Spacer()
         }
     }
