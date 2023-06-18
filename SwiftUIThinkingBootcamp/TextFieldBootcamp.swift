@@ -23,16 +23,19 @@ struct TextFieldBootcamp: View {
                     .font(.headline)
                 
                 Button {
-                    saveText()
-                    
+                    if textisAppropriate() {
+                        saveText()
+                    }
                 } label: {
                     Text("Save".uppercased())
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue.cornerRadius(10))
+                        .background(textisAppropriate() ? Color.blue : Color.red )
+                        .cornerRadius(10)
                         .foregroundColor(.white)
                         .font(.headline)
                 }
+                .disabled(!textisAppropriate())
                 
                 
                 ForEach(dataArray, id: \.self) { data in
@@ -44,6 +47,15 @@ struct TextFieldBootcamp: View {
             .padding()
             .navigationTitle("Textfield Bootcamp!")
         }
+    }
+    
+    
+    func textisAppropriate() -> Bool {
+        //check text
+        if textFieldText.count >= 3{
+            return true
+        }
+        return false
     }
     
     func saveText() {
