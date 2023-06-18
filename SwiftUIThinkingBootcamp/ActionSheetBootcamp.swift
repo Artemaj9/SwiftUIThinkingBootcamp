@@ -33,7 +33,6 @@ struct ActionSheetBootcamp: View {
             
         }
     }
-}
 
 struct ActionSheetBootcamp_Previews: PreviewProvider {
     static var previews: some View {
