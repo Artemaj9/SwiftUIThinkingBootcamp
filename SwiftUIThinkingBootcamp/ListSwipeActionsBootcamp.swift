@@ -15,7 +15,7 @@ struct ListSwipeActionsBootcamp: View {
         List {
             ForEach(fruits, id: \.self) {
                 Text($0.capitalized)
-                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
                         Button("Archive") {
                         }
                         .tint(.cyan)
@@ -26,6 +26,11 @@ struct ListSwipeActionsBootcamp: View {
                         Button("Junk") {
                         }
                         .tint(.red)
+                    }
+                    .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                        Button("Share") {
+                        }
+                        .tint(.purple)
                     }
             }
          //   .onDelete(perform: delete)
