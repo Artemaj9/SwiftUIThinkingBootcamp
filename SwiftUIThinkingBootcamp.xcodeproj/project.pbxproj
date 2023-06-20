@@ -50,6 +50,9 @@
 		AC1139DB2A411B8700FFF35D /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139DA2A411B8700FFF35D /* ModelBootcamp.swift */; };
 		AC1139DD2A41228500FFF35D /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139DC2A41228500FFF35D /* ViewModelBootcamp.swift */; };
 		AC1139DF2A41BB9500FFF35D /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139DE2A41BB9500FFF35D /* EnvironmentObjectBootcamp.swift */; };
+		AC1139E12A41C51100FFF35D /* AppStarageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E02A41C51100FFF35D /* AppStarageBootcamp.swift */; };
+		AC1139E42A41D3D500FFF35D /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E32A41D3D500FFF35D /* IntroView.swift */; };
+		AC1139E62A41D57400FFF35D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E52A41D57400FFF35D /* OnboardingView.swift */; };
 		AC41A9DB2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */; };
 		AC41A9DD2A3DDE88002DD15E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DC2A3DDE88002DD15E /* ContentView.swift */; };
 		AC41A9DF2A3DDE8A002DD15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC41A9DE2A3DDE8A002DD15E /* Assets.xcassets */; };
@@ -105,6 +108,9 @@
 		AC1139DA2A411B8700FFF35D /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		AC1139DC2A41228500FFF35D /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		AC1139DE2A41BB9500FFF35D /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
+		AC1139E02A41C51100FFF35D /* AppStarageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStarageBootcamp.swift; sourceTree = "<group>"; };
+		AC1139E32A41D3D500FFF35D /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		AC1139E52A41D57400FFF35D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		AC41A9D72A3DDE88002DD15E /* SwiftUIThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		AC41A9DC2A3DDE88002DD15E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC1139E22A41D3BC00FFF35D /* Onboarding Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC1139E32A41D3D500FFF35D /* IntroView.swift */,
+				AC1139E52A41D57400FFF35D /* OnboardingView.swift */,
+			);
+			path = "Onboarding Views";
+			sourceTree = "<group>";
+		};
 		AC41A9CE2A3DDE88002DD15E = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +162,12 @@
 		AC41A9D92A3DDE88002DD15E /* SwiftUIThinkingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */,
 				AC11399C2A3E4E9200FFF35D /* ExtractSubviewsBootcamp.swift */,
 				AC1139942A3E385400FFF35D /* SafeAreaBootcamp.swift */,
 				AC1139862A3E078900FFF35D /* StacksBootcamp.swift */,
 				AC1139982A3E491900FFF35D /* StateBootcamp.swift */,
 				AC11399A2A3E4C0900FFF35D /* ExtractedFunctionBootcamp.swift */,
-				AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */,
 				AC41A9DC2A3DDE88002DD15E /* ContentView.swift */,
 				AC41A9E82A3DDEBB002DD15E /* GradientsBootcamp.swift */,
 				AC41A9EA2A3DE5E0002DD15E /* ColorsBootcamp.swift */,
@@ -166,16 +181,16 @@
 				AC41A9F02A3DFAF1002DD15E /* FrameBootcamp.swift */,
 				AC1139B02A3F3FD600FFF35D /* ListBootcamp.swift */,
 				AC1139962A3E400C00FFF35D /* ButtonsBootcamp.swift */,
+				AC1139AC2A3F123300FFF35D /* PopoverBootcamp.swift */,
 				AC11398A2A3E19EE00FFF35D /* SpacerBootcamp.swift */,
 				AC41A9EE2A3DF75E002DD15E /* ImageBootcamp.swift */,
 				AC1139882A3E159E00FFF35D /* PaddingAndSpacerBootcamp.swift */,
 				AC1139842A3DFEEE00FFF35D /* BackgroundAndOverlayBootcamp.swift */,
 				AC11399E2A3EE9E600FFF35D /* BindingBootcamp.swift */,
 				AC1139A42A3EF5D300FFF35D /* AnimationBootcamp.swift */,
-				AC1139A62A3EFAA900FFF35D /* AnimationTimingBootcamp.swift */,
 				AC1139A82A3EFFAA00FFF35D /* TransitionBootcamp.swift */,
+				AC1139A62A3EFAA900FFF35D /* AnimationTimingBootcamp.swift */,
 				AC1139AA2A3F093900FFF35D /* SheetsBootcamp.swift */,
-				AC1139AC2A3F123300FFF35D /* PopoverBootcamp.swift */,
 				AC1139AE2A3F2E3D00FFF35D /* NavigationViewBootcamp.swift */,
 				AC1139B42A3F49C200FFF35D /* AlertBootcamp.swift */,
 				AC1139B62A3F50D500FFF35D /* ActionSheetBootcamp.swift */,
@@ -197,6 +212,8 @@
 				AC1139DA2A411B8700FFF35D /* ModelBootcamp.swift */,
 				AC1139DC2A41228500FFF35D /* ViewModelBootcamp.swift */,
 				AC1139DE2A41BB9500FFF35D /* EnvironmentObjectBootcamp.swift */,
+				AC1139E02A41C51100FFF35D /* AppStarageBootcamp.swift */,
+				AC1139E22A41D3BC00FFF35D /* Onboarding Views */,
 				AC41A9DE2A3DDE8A002DD15E /* Assets.xcassets */,
 				AC41A9E02A3DDE8A002DD15E /* Preview Content */,
 			);
@@ -298,6 +315,7 @@
 				AC41A9E92A3DDEBB002DD15E /* GradientsBootcamp.swift in Sources */,
 				AC1139912A3E297100FFF35D /* ScrollViewBootcamp.swift in Sources */,
 				AC1139B52A3F49C200FFF35D /* AlertBootcamp.swift in Sources */,
+				AC1139E42A41D3D500FFF35D /* IntroView.swift in Sources */,
 				AC41A9ED2A3DF319002DD15E /* IconsBootcamp.swift in Sources */,
 				AC1139852A3DFEEF00FFF35D /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				AC11398F2A3E251C00FFF35D /* ForEachBootcamp.swift in Sources */,
@@ -317,7 +335,9 @@
 				AC1139B12A3F3FD600FFF35D /* ListBootcamp.swift in Sources */,
 				AC1139872A3E078900FFF35D /* StacksBootcamp.swift in Sources */,
 				AC1139D92A41184C00FFF35D /* TapGestureBootcamp.swift in Sources */,
+				AC1139E12A41C51100FFF35D /* AppStarageBootcamp.swift in Sources */,
 				AC41A9EF2A3DF75E002DD15E /* ImageBootcamp.swift in Sources */,
+				AC1139E62A41D57400FFF35D /* OnboardingView.swift in Sources */,
 				AC1139952A3E385400FFF35D /* SafeAreaBootcamp.swift in Sources */,
 				AC1139CB2A40ADDB00FFF35D /* SliderBootcamp.swift in Sources */,
 				AC11399B2A3E4C0900FFF35D /* ExtractedFunctionBootcamp.swift in Sources */,
