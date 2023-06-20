@@ -14,19 +14,21 @@ struct IntroView: View {
     var body: some View {
         ZStack {
             //background
-            RadialGradient(colors: [.cyan,.blue], center: .topLeading, startRadius: 5, endRadius: UIScreen.main.bounds.height)
+            RadialGradient(colors: [.blue,.purple], center: .topLeading, startRadius: 5, endRadius: UIScreen.main.bounds.height)
                 .ignoresSafeArea()
             if currentUserSignedIn {
-                Text("Profile View")
+               ProfileView()
+                    .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .opacity))
             } else {
-                Text("Onboarding View")
-                    .foregroundColor(.white)
+              OnboardingView()
+                    .transition(.asymmetric(insertion: .opacity, removal: .move(edge: .leading)))
             }
             //if user is signed in
             //profile view
             //else
             //onboarding view
         }
+        .animation(.spring(), value: currentUserSignedIn)
     }
 }
 

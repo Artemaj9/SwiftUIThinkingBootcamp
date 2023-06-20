@@ -53,6 +53,7 @@
 		AC1139E12A41C51100FFF35D /* AppStarageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E02A41C51100FFF35D /* AppStarageBootcamp.swift */; };
 		AC1139E42A41D3D500FFF35D /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E32A41D3D500FFF35D /* IntroView.swift */; };
 		AC1139E62A41D57400FFF35D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E52A41D57400FFF35D /* OnboardingView.swift */; };
+		AC1139E82A41FE3400FFF35D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139E72A41FE3400FFF35D /* ProfileView.swift */; };
 		AC41A9DB2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */; };
 		AC41A9DD2A3DDE88002DD15E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DC2A3DDE88002DD15E /* ContentView.swift */; };
 		AC41A9DF2A3DDE8A002DD15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC41A9DE2A3DDE8A002DD15E /* Assets.xcassets */; };
@@ -111,6 +112,7 @@
 		AC1139E02A41C51100FFF35D /* AppStarageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStarageBootcamp.swift; sourceTree = "<group>"; };
 		AC1139E32A41D3D500FFF35D /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		AC1139E52A41D57400FFF35D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AC1139E72A41FE3400FFF35D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AC41A9D72A3DDE88002DD15E /* SwiftUIThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		AC41A9DC2A3DDE88002DD15E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				AC1139E32A41D3D500FFF35D /* IntroView.swift */,
+				AC1139E72A41FE3400FFF35D /* ProfileView.swift */,
 				AC1139E52A41D57400FFF35D /* OnboardingView.swift */,
 			);
 			path = "Onboarding Views";
@@ -326,6 +329,7 @@
 				AC1139BD2A3F5CE600FFF35D /* TextFieldBootcamp.swift in Sources */,
 				AC11398B2A3E19EE00FFF35D /* SpacerBootcamp.swift in Sources */,
 				AC1139AF2A3F2E3D00FFF35D /* NavigationViewBootcamp.swift in Sources */,
+				AC1139E82A41FE3400FFF35D /* ProfileView.swift in Sources */,
 				AC1139D12A40C39800FFF35D /* DarkModeBootcamp.swift in Sources */,
 				AC1139D32A4100E400FFF35D /* DocumentationBootcamp.swift in Sources */,
 				AC1139AB2A3F093900FFF35D /* SheetsBootcamp.swift in Sources */,
