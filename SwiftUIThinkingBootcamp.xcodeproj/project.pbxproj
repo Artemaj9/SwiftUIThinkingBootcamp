@@ -60,6 +60,7 @@
 		AC1139F02A42583F00FFF35D /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139EF2A42583F00FFF35D /* ButtonStylesBootcamp.swift */; };
 		AC1139F22A425D0000FFF35D /* ListSwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139F12A425D0000FFF35D /* ListSwipeActionsBootcamp.swift */; };
 		AC1139F42A42606D00FFF35D /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139F32A42606D00FFF35D /* BadgesBootcamp.swift */; };
+		AC1139F62A4262EC00FFF35D /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1139F52A4262EC00FFF35D /* FocusStateBootcamp.swift */; };
 		AC41A9DB2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */; };
 		AC41A9DD2A3DDE88002DD15E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41A9DC2A3DDE88002DD15E /* ContentView.swift */; };
 		AC41A9DF2A3DDE8A002DD15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC41A9DE2A3DDE8A002DD15E /* Assets.xcassets */; };
@@ -125,6 +126,7 @@
 		AC1139EF2A42583F00FFF35D /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		AC1139F12A425D0000FFF35D /* ListSwipeActionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsBootcamp.swift; sourceTree = "<group>"; };
 		AC1139F32A42606D00FFF35D /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
+		AC1139F52A4262EC00FFF35D /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
 		AC41A9D72A3DDE88002DD15E /* SwiftUIThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC41A9DA2A3DDE88002DD15E /* SwiftUIThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		AC41A9DC2A3DDE88002DD15E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				AC1139EF2A42583F00FFF35D /* ButtonStylesBootcamp.swift */,
 				AC1139F12A425D0000FFF35D /* ListSwipeActionsBootcamp.swift */,
 				AC1139F32A42606D00FFF35D /* BadgesBootcamp.swift */,
+				AC1139F52A4262EC00FFF35D /* FocusStateBootcamp.swift */,
 				AC41A9DE2A3DDE8A002DD15E /* Assets.xcassets */,
 				AC41A9E02A3DDE8A002DD15E /* Preview Content */,
 			);
@@ -333,6 +336,7 @@
 				AC1139EA2A424FE700FFF35D /* AsyncImageBootcamp.swift in Sources */,
 				AC11398D2A3E1FBE00FFF35D /* InitializerBootcamp.swift in Sources */,
 				AC1139A72A3EFAA900FFF35D /* AnimationTimingBootcamp.swift in Sources */,
+				AC1139F62A4262EC00FFF35D /* FocusStateBootcamp.swift in Sources */,
 				AC41A9F12A3DFAF1002DD15E /* FrameBootcamp.swift in Sources */,
 				AC1139F02A42583F00FFF35D /* ButtonStylesBootcamp.swift in Sources */,
 				AC11399D2A3E4E9200FFF35D /* ExtractSubviewsBootcamp.swift in Sources */,
