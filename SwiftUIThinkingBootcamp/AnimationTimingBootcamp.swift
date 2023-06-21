@@ -26,7 +26,7 @@ struct AniationTimingBootcamp: View {
                 .frame(width: isAnimating ? 350:50, height: 100)
           
               
-//                .animation(Animation.linear(duration: timing))
+//            .animation(Animation.linear(duration: timing))
 //            RoundedRectangle(cornerRadius: 20)
 //                .frame(width: isAnimating ? 350:50, height: 100)
 //                .animation(Animation.easeIn(duration: timing))
